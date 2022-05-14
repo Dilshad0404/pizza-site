@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+Bhai+2:wght@400;500&family=Baloo+Bhaijaan+2&family=Baloo+Paaji+2&family=Exo+2:wght@300&family=Fredoka&family=Indie+Flower&family=Inspiration&family=League+Spartan:wght@300&family=Lobster&family=Montserrat+Alternates&family=Palette+Mosaic&family=Permanent+Marker&family=Red+Hat+Mono&family=Roboto+Mono&family=Short+Stack&family=Supermercado+One&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+    --primary-color:#ee2748;
+}
+header::before{
+    background-image: url(headerbg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 29rem;
+    z-index:-1;
+    opacity: 0.6;
+}
+header{
+    display: flex;
+    height: 29rem;
+    box-shadow: 2px 2px 20px 5px grey;
+    
+    
+}
+.main{
+    display: flex;
+    
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+   
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    height: 8rem;
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin: 1px 0px;
+    
+  }
+
+  .logo p{
+      color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 23px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .logo h1{font-family: 'Lobster', cursive;
+    font-style: italic;
+      background-color: black;
+      padding: 0px 12px;
+      
+      /* border: 2px solid yellow; */
+      border-radius: 15px;
+  }
+.logo span{
+    color: var(--primary-color);
+}
+NAV{
+    width: 41%;
+    margin: 30px 0px 0px 172px;
+   
+}
+ul a{font-family: monospace;
+    margin: 0px 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+cursor: pointer;}
+
+
+    .link-active{
+    border-bottom:4px solid var(--primary-color);
+    color: var(--primary-color);
+   
+    }
+    ul a:hover{
+        border-bottom: 4px solid var(--primary-color);
+        transition: ease-in-out 0.5;
+    
+    }
+
+    #signin{
+        display: flex;
+        justify-content: center;
+        
+    
+        /* width: 30%; */
+        margin: 30px 0px 0px 140px;
+    }
+    #signin button {
+        cursor: pointer;
+        text-align: center;
+        margin: 0px 13px;
+        padding: 13px;
+        font-size: 17px;
+        border-radius: 12px;
+        font-weight: bold;
+        color: white;
+        background-color: 2px solid var(--primary-color);
+        border: 3px solid var(--primary-color);
+       }
+        #signin button:hover{
+            background-color: var(--primary-color);
+        }
+    
+.ad{
+    border: 4px solid white;
+border-radius: 5px;
+    margin: 14rem auto;
+    width: 50%;
+    font-family: 'Permanent Marker', cursive;
+    height: 9rem;
+  }
+
+.ad h1{
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    padding: 10px 0;}
+.ad p{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
+.ad p span{
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 7px;
+    color: black;
+}
+.dog{
+    
+    border-radius: 12px;
+    background-image: url(dogbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 36%;
+height: 22rem;
+    margin: 2rem auto;
+}
+
+
+
+
+.first{display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 57%;
+    height: 37rem;
+    margin-top: 1.5rem;
+    /* border: 2px solid  red; */
+    background-color: #dde4eb;
+    font-family: 'Permanent Marker', cursive;
+    box-shadow: 2px 2px 20px  black;
+}
+.first p1{
+    font-style: italic;
+    background-color: white;
+    border-radius: 8px;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+.first h1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    padding: 11px;
+    font-size: 36px;}
+
+.first img{
+    margin: 2rem auto;
+    width: 60%;
+height: 20rem;
+}
+.price{
+    /* border: 4px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin: 0rem auto;
+    font-size: 24px;
+    width: 20%;
+    text-align: center;
+}
+
+
+.price button{
+    padding: 10px;
+    margin: auto;
+    font-size: 24px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    font-family: monospace;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 2.5rem;
+    background-color: var(--primary-color);
+    height: 4.5rem;
+    width: 100%;
+}
+footer h2{
+    color: white;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ 
